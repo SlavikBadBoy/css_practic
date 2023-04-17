@@ -1,4 +1,42 @@
+/* Базові стилі для тексту */
 body{
 font-family: 'Playfair Display', serif;
+font-size: 14px;
+line-height: 19px;
+font-weight: 400;
+color: #626262;
 
+}
+/* Шапка сайту */
+.header-nav-list{
+    list-style: none;
+}
+.header-nav-list > li > a{
+    color: #7D7D7D;
+    text-decoration: none;
+}
+.header-nav-list > li > a:hover {
+    color: #03A9F4;
+}
+/* основна частина сайту */
+.card-category {
+ font-family: 'Ubuntu';
+font-weight: 300;
+line-height: 16px;
+/* identical to box height */
+color: #B4AD9E;
+}
+.card-title{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.main-button{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+color: #626262;
 }
