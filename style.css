@@ -5,11 +5,32 @@ font-size: 14px;
 line-height: 19px;
 font-weight: 400;
 color: #626262;
-
+}
+.wrapper{
+    width: 906px;
+    margin: 0 auto;
 }
 /* Шапка сайту */
+.header {
+    height: 182px;
+    padding-top: 71px   ;
+}
+.header-nav{
+    margin: 0 auto;
+    width: 555px;
+}
+.header-nav-list > li {
+    display: inline-block; 
+}
 .header-nav-list{
     list-style: none;
+}
+.header-nav-list > li:not(:last-child){
+    margin-right: 100px;
+}
+ /* Видалення зайвих Відступів між елементами inline-block */
+.header-nav-list > li:not(:first-child){
+    margin-left: -4px;
 }
 .header-nav-list > li > a{
     color: #7D7D7D;
@@ -19,6 +40,10 @@ color: #626262;
     color: #03A9F4;
 }
 /* основна частина сайту */
+.card{
+    width: 420px;
+    display: inline-block; 
+}
 .card-category {
  font-family: 'Ubuntu';
 font-weight: 300;
