@@ -49,6 +49,7 @@ color: #626262;
 .card:nth-last-child(-n +2){
     margin-bottom: 0;
 }
+/* Прибираємо зайві відступи в inline елементів, та прибираємо правий відступ в кожної другої картки */
 .card:nth-child(2n) {
     margin-left: -4px;
     margin-right: 0;
@@ -73,6 +74,7 @@ color: #B4AD9E;
     font-weight: 400;
     margin-bottom: 40px;
 }
+/* Стилі для кнопки */
 .main-button{
     display: block;
     margin: 90px auto 0;
