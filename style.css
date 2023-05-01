@@ -42,7 +42,16 @@ color: #626262;
 /* основна частина сайту */
 .card{
     width: 420px;
-    display: inline-block; 
+    display: inline-block;
+    margin-right: 65px;
+    margin-bottom: 130px;
+}
+.card:nth-last-child(-n +2){
+    margin-bottom: 0;
+}
+.card:nth-child(2n) {
+    margin-left: -4px;
+    margin-right: 0;
 }
 .card-category {
  font-family: 'Ubuntu';
@@ -51,12 +60,25 @@ line-height: 16px;
 /* identical to box height */
 color: #B4AD9E;
 }
+.card-img {
+    margin-bottom: 32px;    
+}
+.card-category{
+    display: block;
+    margin-bottom: 32px;
+}
 .card-title{
     font-size: 30px;
     line-height: 40px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 .main-button{
+    display: block;
+    margin: 90px auto 0;
+    height: 60px;
+    width: 165px;
+    background-color: #FFFFFF;
     font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 400;
